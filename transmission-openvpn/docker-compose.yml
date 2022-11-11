@@ -8,7 +8,7 @@ services:
     - /dev/net/tun
   restart: always
   ports:
-    - "9091:9091"
+    - "9092:9092"
     # - "8888:8888" # proxy support
   volumes:
     - /your/storage/path/:/data # where transmission will store the data
